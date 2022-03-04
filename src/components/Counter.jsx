@@ -2,7 +2,7 @@ import {useState, use} from "react";
 import "../components/counter.css"
 
 export function Counter(value){
-    const [counter,setCounter] =useState(10);
+    const [counter,setCounter] =useState(0);
     const handlechange=(value)=>{
         setCounter(counter+value);
     };
