@@ -1,7 +1,21 @@
+body {
+  display: flex;
+  height: 600px;
+  background-color: black;
+
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
 .App {
   text-align: center;
+  margin-top: 100px;
+  color: white;
+  font-size: 50px;
+  font-family: cursive;
 }
-
+.App1 {
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
